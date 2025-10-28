@@ -132,10 +132,10 @@ launchBtn.addEventListener("click", () => {
   if (isGridVisible) {
     antennaView.style.display = "none";
     gridView.style.display = "block";
-    launchBtn.textContent = "Antenna View";
+    launchBtn.textContent = "ANTENNA VIEW";
   } else {
     antennaView.style.display = "flex";
     gridView.style.display = "none";
-    launchBtn.textContent = "Grid View";
+    launchBtn.textContent = "GRID VIEW";
   }
 });
